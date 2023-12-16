@@ -1,4 +1,4 @@
-import Comments from '@/components/comments';
+// import Comments from '@/components/comments';
 import Link from '@/components/Link';
 import PageTitle from '@/components/PageTitle';
 import ScrollTopAndComment from '@/components/ScrollTopAndComment';
@@ -14,12 +14,12 @@ import { AuthorFrontMatter } from 'types/AuthorFrontMatter';
 import { PostFrontMatter } from 'types/PostFrontMatter';
 import { Toc } from 'types/Toc';
 
-const editUrl = fileName =>
-  `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;
-const discussUrl = slug =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `${siteMetadata.siteUrl}/blog/${slug}`,
-  )}`;
+// const editUrl = fileName =>
+//   `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;
+// const discussUrl = slug =>
+//   `https://mobile.twitter.com/search?q=${encodeURIComponent(
+//     `${siteMetadata.siteUrl}/blog/${slug}`,
+//   )}`;
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -129,6 +129,7 @@ export default function PostLayout({
                 </ul>
               </dd>
             </dl>
+
             <div className='divide-y-2 divide-gray-100 dark:divide-gray-800 xl:col-span-3 xl:row-span-2 xl:pb-0'>
               {banner && (
                 <img
@@ -194,6 +195,7 @@ export default function PostLayout({
                     </div>
                   )}
                 </div>
+
                 <div className='pt-4 xl:pt-8'>
                   <Link
                     href='/blog'
