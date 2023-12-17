@@ -13,11 +13,11 @@ export interface Contact {
 
 export const contact: Contact = {
   site: 'satishdeshbhratar.com',
-  calendly: 'https://calendly.com/karanpratapsingh',
+  calendly: 'https://calendly.com/satishdeshbhratar',
   links: {
     github: 'https://github.com/SatishDeshbhratar',
     linkedin: 'https://www.linkedin.com/in/satish-deshbhratar/',
     email: 'mailto:satishdeshbhratar@gmail.com',
-    buymeacoffee: 'https://www.buymeacoffee.com/karanps',
+    buymeacoffee: 'https://www.buymeacoffee.com/satishdeshbhratar',
   },
 };
