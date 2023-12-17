@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://satishdeshbhratar.com',
   siteRepo: 'https://github.com/SatishDeshbhratar/Portfolio',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/logo.svg',
   image: '/static/avatar.jpg',
   socialBanner: '/static/banner.png',
   email: 'satishdeshbhratar@gmail.com',
